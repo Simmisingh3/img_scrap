@@ -84,3 +84,19 @@ INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 18:46:12] "GET /static/css/style.css HT
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 18:46:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 18:46:51] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 18:49:37] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.29.153:8000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:06:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:06:13] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:06:13] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:06:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:06:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:06:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:06:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:06:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:06:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:06:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:06:48] "GET / HTTP/1.1" 200 -
+INFO:root:The DNS query name does not exist: _mongodb._tcp.cluster0.mwtduly.mongodb.net.
+INFO:werkzeug:192.168.29.153 - - [06/Nov/2023 09:07:11] "POST /review HTTP/1.1" 200 -

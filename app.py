@@ -2,14 +2,14 @@ from flask import Flask, render_template, request,jsonify
 from flask_cors import CORS,cross_origin
 import requests
 from bs4 import BeautifulSoup
-from urllib.request import urlopen as uReq
+from urllib.request import urlopen as uReq #The urlopen() function provides a fairly simple interface. It is capable of retrieving URLs.
 import logging
 import pymongo
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 import os
 
-application = Flask(__name__)
-app = application
+app = Flask(__name__)
+
 
 @app.route("/", methods = ['GET'])
 def homepage():
